@@ -1,0 +1,30 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "Proyecto educativo de JavaScript para practicar lógica con juegos mentales",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
+  "scripts": {
+    "test": "echo\"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheycom/fullstack-javascript-project-98.git"
+  },
+  "keywords": [
+    "javascript",
+    "juegos",
+    "lógica",
+    "hexlet",
+    "terminal"
+  ],
+  "author": "John Jairo Chacón <jchacon@outlook.es>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cheycom/fullstack-javascript-project-98/issues"
+  },
+  "homepage": "https://github.com/cheycom/fullstack-javascript-project-98#readme"
+}
