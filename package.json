@@ -1,6 +1,6 @@
 {
   "name": "@hexlet/code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Proyecto educativo de JavaScript para practicar lógica con juegos mentales",
   "main": "index.js",
   "type": "module",
