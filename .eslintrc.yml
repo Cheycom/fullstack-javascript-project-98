@@ -1,0 +1,9 @@
+root: true
+env:
+  node: true
+  es2021: true
+extends:
+  - airbnb-base
+rules:
+  no-console: off
+  import/extensions: off
