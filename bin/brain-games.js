@@ -1,3 +1,6 @@
 #!/usr/bin/env node
 
-console.log('¡Bienvenido a Juegos Mentales!');
+
+import runEvenGamen from '../src/games/even.js';
+
+runEvenGamen();

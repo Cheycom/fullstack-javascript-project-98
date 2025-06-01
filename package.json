@@ -5,13 +5,14 @@
   "main": "index.js",
   "type": "module",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "scripts": {
     "start": "brain-games",
     "lint": "eslint .",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "publish": "npm publish --dry-run"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  
   },
   "repository": {
     "type": "git",
