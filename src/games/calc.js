@@ -1,12 +1,10 @@
 import readlineSync from 'readline-sync';
-import getUserName from '../cli.js';
 import getRandomNumber from '../utils/random.js';
 
 const operators = ['+', '-', '*'];
 const roundsCount = 3;
 
-const runCalcGame = () => {
-  //const userName = getUserName ();
+const runCalcGame = (userName) => {
   console.log('¿Cuál es el resultado de la expresión?');
 
   let correctAnswers = 0;
@@ -38,13 +36,13 @@ const runCalcGame = () => {
       console.log('¡Correcto!');
       correctAnswers += 1;
     } else {
-      console.log(`'${userAnswer}' es una respuesta incorrecta. La respuesta correcta era '${correctAnswer}'.`);
-      console.log(`¡Intentémoslo de nuevo!`);
+      console.log(`'${userAnswer}' es una respuesta incorrecta ;(. La respuesta correcta era '${correctAnswer}'.`);
+      console.log(`¡Intentémoslo de nuevo, ${userName}!`);
       return;
     }
   }
 
-  console.log(`¡Felicitaciones!`);
+  console.log(`¡Felicidades, ${userName}!`);
 };
 
 export default runCalcGame;
