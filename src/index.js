@@ -14,7 +14,7 @@ const runGame = (description, generateRound) => {
     const userAnswer = readlineSync.question('Tu respuesta: ');
 
     if (userAnswer !== correctAnswer) {
-      console.log(`'${userAnswer}' es una respuesta incorrecta ;(. La respuesta correcta era '${correctAnswer}'.`);
+      console.log(`'${userAnswer}' es una respuesta incorrecta. La respuesta correcta era '${correctAnswer}'.`);
       console.log(`¡Intentémoslo de nuevo, ${name}!`);
       return;
     }

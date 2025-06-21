@@ -128,3 +128,27 @@ If you're embedding on your own page or on a site which permits script tags, you
 <script src="https://asciinema.org/a/tQEIurpwVEp0lotfVPgGRa8Ap.js" id="asciicast-tQEIurpwVEp0lotfVPgGRa8Ap" async="true"></script>
 
 Paste the above script tag where you want the player to be displayed on your page.
+
+### brain-prime es numero primo
+
+Link
+https://asciinema.org/a/QlGT8Klfxd7KHIGOoLDyrtvxh
+
+Append ?t=30 to start the playback at 30s, ?t=3:20 to start the playback at 3m 20s.
+
+Embed image link
+Use snippets below to display a screenshot linking to this recording.
+Useful in places where scripts are not allowed (e.g. in a project's README file).
+
+HTML:
+<a href="https://asciinema.org/a/QlGT8Klfxd7KHIGOoLDyrtvxh" target="_blank"><img src="https://asciinema.org/a/QlGT8Klfxd7KHIGOoLDyrtvxh.svg" /></a>
+
+Markdown:
+[![asciicast](https://asciinema.org/a/QlGT8Klfxd7KHIGOoLDyrtvxh.svg)](https://asciinema.org/a/QlGT8Klfxd7KHIGOoLDyrtvxh)
+
+Embed the player
+If you're embedding on your own page or on a site which permits script tags, you can use the full player widget:
+
+<script src="https://asciinema.org/a/QlGT8Klfxd7KHIGOoLDyrtvxh.js" id="asciicast-QlGT8Klfxd7KHIGOoLDyrtvxh" async="true"></script>
+
+Paste the above script tag where you want the player to be displayed on your page.
